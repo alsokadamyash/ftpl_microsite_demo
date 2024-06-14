@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --fab-blue: #2196D4;
+  --fab-red: #A50E06;
+  --light-1: #efefef;
+  --light-0: #DADCE1;
+  --grey-1: #595A5C;
+  --grey-0: #353B3C;
+  --font: "Public Sans", "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+}
+
+.carousel {
+  height: 80vh;
+}
+
+.button {
+  padding: 10px;
+  background: var(--grey-1);
+  color: white;
+}
+.button:hover {
+  background: var(--fab-blue);
+}/*# sourceMappingURL=index.css.map */

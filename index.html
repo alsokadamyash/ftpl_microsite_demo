@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabtechnologies</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon">
+    <link rel="stylesheet" href="styles/index.css">
+    <script defer src="scripts/index.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg fixed w-full z-10 top-0">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <!-- Company Name -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-xl font-bold text-grey-0">Fabtechnologies</a>
+                </div>
+                <!-- Nav Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-grey-1 hover:text-blue-400">Solutions</a>
+                    <a href="#" class="text-grey-1 hover:text-blue-400">About</a>
+                    <a href="#" class="text-grey-1 hover:text-blue-400">Stepping Up</a>
+                    <a href="#" class="text-grey-1 hover:text-blue-400">Contact Us</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="text-grey-1 hover:text-grey-0 focus:outline-none focus:text-grey-0" id="mobile-menu-button">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#" class="block text-grey-1 hover:text-grey-0">Solutions</a>
+                <a href="#" class="block text-grey-1 hover:text-grey-0">About</a>
+                <a href="#" class="block text-grey-1 hover:text-grey-0">Stepping Up</a>
+                <a href="#" class="block text-grey-1 hover:text-grey-0">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="carousel h-screen mt-16">
+        <!-- Carousel Item 1 -->
+        <div class="carousel-item active bg-cover bg-center h-full bg-grey" style="background-image: url('https://fabtechnologies.com/wp-content/uploads/2023/04/cleanroom.jpg');">
+            <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+                <div class="text-center text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Fabtech</h1>
+                    <p class="text-lg md:text-2xl mb-6">Innovative solutions for cleanrooms and more</p>
+                    <a class="button" href="https://fabtechnologies.com/solutions-for-cleanrooms-and-clean-air-applications/cleanroom-systems/" class="bg-fab-blue text-white py-2 px-4 rounded">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Item 2 -->
+        <div class="carousel-item bg-cover bg-center hidden h-full bg-grey" style="background-image: url('https://fabtechnologies.com/wp-content/uploads/2023/04/potent-API-processing-isolator-01.jpg');">
+            <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+                <div class="text-center text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">Cutting-edge Technology</h1>
+                    <p class="text-lg md:text-2xl mb-6">Advanced solutions for pharmaceutical manufacturing</p>
+                    <a class="button" href="https://fabtechnologies.com/turnkey-pharmaceutical-projects/" class="bg-fab-blue text-white py-2 px-4 rounded">Explore</a>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Item 3 -->
+        <div class="carousel-item bg-cover bg-center hidden h-full bg-grey" style="background-image: url('https://fabtechnologies.com/wp-content/uploads/2023/04/BSL-3-LABShahjahanpur-006-244x300.jpg');">
+            <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+                <div class="text-center text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">Quality and Precision</h1>
+                    <p class="text-lg md:text-2xl mb-6">Ensuring excellence in every product</p>
+                    <a class="button" href="https://fabtechnologies.com/pharmaceutical-manufacturing-plant-installations/" class="bg-fab-blue text-white py-2 px-4 rounded">Discover</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+             
+</body>
+</html>
